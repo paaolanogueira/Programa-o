@@ -49,11 +49,26 @@ for(var i = 0; i<btn.length; i++){
         break;
          }            
     };
-    btn[i].addEventListener('click', function(){
+    btn[i].addEventListener('click', function){
         var btnVal  = this.innerHTML,
         inputVal = input.innerHTML;
         //console.log(btnVal);
-    })
+
+        switch(btnVal){
+            case "c":
+                input.innnerHTML = "";
+                break;
+                case"=":
+                var equacao = inputVal;
+
+                if(equacao){}
+                      try{ 
+
+
+        }
+
+
+    }
 
     }
 
